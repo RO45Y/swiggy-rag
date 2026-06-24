@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+rag_env/
+
+# Environment variables
+.env
+
+#Report
+data/
+
+# Vector store (FAISS index)
+vector_store/
+
+# Chunks cache
+chunks.json
+
+# Streamlit
+.streamlit/
+*.pid
+
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+test.py
+eval_questions.json
+
