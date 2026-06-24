@@ -18,6 +18,7 @@ Built as part of an AI/ML assignment – no hallucinations, only context‑groun
 - [📁 Project Structure](#-project-structure)
 - [⚙️ Configuration](#-configuration)
 - [🧪 Evaluation](#-evaluation)
+- [📸 Screenshots](#-screenshots)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📄 License](#-license)
 
@@ -162,6 +163,9 @@ swiggy-rag/
 ├── app.py                    # Streamlit UI (chat interface)
 ├── data/
 │   └── swiggy_annual_report.pdf
+├── img/                      # Screenshots & images
+│   ├── pic1.png              # Chat interface screenshot
+│   └── pic2.png              # Sources panel screenshot
 ├── src/
 │   ├── __init__.py
 │   ├── config.py             # All configuration parameters
@@ -237,6 +241,20 @@ To measure retrieval performance, we provide a small evaluation framework.
    - **MRR** – Mean Reciprocal Rank – indicates how early the correct page is found on average.
 
 This allows you to quantitatively tune parameters (e.g., `TOP_K`, ensemble weights, MMR lambda) for best performance.
+
+---
+
+## 📸 Screenshots
+
+### Chat Interface
+The main chat UI where users can ask questions about the Swiggy Annual Report and receive grounded answers with source citations.
+
+![Chat Interface](img/pic1.png)
+
+### Sources Panel
+Expandable source cards showing the retrieved context snippets and their corresponding page numbers for full transparency.
+
+![Sources Panel](img/pic2.png)
 
 ---
 

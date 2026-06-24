@@ -66,7 +66,7 @@ if "chain" not in st.session_state:
 
 # Sidebar
 with st.sidebar:
-    st.image("https://logos-world.net/wp-content/uploads/2020/12/Swiggy-Logo.png", width=200)
+    st.image("img/Swiggy_logo.png", width=200)
     st.markdown("## 📄 About")
     st.markdown(
         """
