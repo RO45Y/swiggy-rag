@@ -249,12 +249,12 @@ This allows you to quantitatively tune parameters (e.g., `TOP_K`, ensemble weigh
 ### Chat Interface
 The main chat UI where users can ask questions about the Swiggy Annual Report and receive grounded answers with source citations.
 
-![Chat Interface](img/pic1.jpeg)
+![Chat Interface](img/pic2.jpeg)
 
 ### Sources Panel
 Expandable source cards showing the retrieved context snippets and their corresponding page numbers for full transparency.
 
-![Sources Panel](img/pic2.jpeg)
+![Sources Panel](img/pic1.jpeg)
 
 ---
 
