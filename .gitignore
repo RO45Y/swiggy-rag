@@ -16,6 +16,9 @@ rag_env/
 #Report
 data/
 
+*.log
+.DS_Store
+
 # Vector store (FAISS index)
 vector_store/
 
